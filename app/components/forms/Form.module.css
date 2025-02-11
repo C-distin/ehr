@@ -1,0 +1,23 @@
+.form {
+  @apply space-y-6 max-w-2xl mx-auto bg-white p-6 rounded-lg shadow-md;
+}
+
+.formGroup {
+  @apply space-y-2;
+}
+
+.formGroup label {
+  @apply block text-sm font-medium text-gray-700;
+}
+
+.formGroup input {
+  @apply w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.error {
+  @apply text-sm text-red-500 mt-1;
+}
+
+.submitButton {
+  @apply w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors;
+}

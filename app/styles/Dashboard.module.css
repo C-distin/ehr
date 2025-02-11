@@ -1,0 +1,35 @@
+.dashboard {
+  @apply min-h-screen bg-gray-50;
+}
+
+.sidebar {
+  @apply fixed top-0 left-0 h-full w-64 bg-white shadow-lg z-50 transition-transform duration-300 ease-in-out;
+}
+
+.content {
+  @apply ml-64 p-8;
+}
+
+.header {
+  @apply bg-white shadow-sm mb-8 p-4;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300;
+}
+
+.statsGrid {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8;
+}
+
+.statCard {
+  @apply bg-white rounded-lg shadow p-6 hover:shadow-lg transition-shadow duration-300;
+}
+
+.statValue {
+  @apply text-3xl font-bold text-gray-900 mb-2;
+}
+
+.statLabel {
+  @apply text-sm text-gray-500;
+}
